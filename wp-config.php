@@ -25,7 +25,7 @@ define('DB_USER', 'wp_demo');
 define('DB_PASSWORD', 'wp_demo');
 
 /** Имя сервера MySQL */
-define('DB_HOST', 'localhost');
+define('DB_HOST', '0.0.0.0');
 
 /** Кодировка базы данных для создания таблиц. */
 define('DB_CHARSET', 'utf8');
