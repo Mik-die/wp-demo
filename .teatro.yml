@@ -1,0 +1,10 @@
+project:
+  platform: php
+  
+stage:
+  database: mysql
+  services:
+    - mysql
+    
+  before:
+    - cp wp-config-teatro.php wp-config.php
