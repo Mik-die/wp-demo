@@ -1,6 +1,3 @@
-project:
-  platform: php
-  
 stage:
   database: mysql
   services:
