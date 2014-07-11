@@ -1,8 +1,3 @@
-config:
-  database: mysql
-  services:
-    - mysql
-    
 stage:
   before:
     - cp wp-config-teatro.php wp-config.php
